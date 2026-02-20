@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
 class ChurnInputSerializer(serializers.Serializer):
-    gender = serializers.IntegerField()
+    Gender = serializers.IntegerField()
     SeniorCitizen = serializers.IntegerField()
     Partner = serializers.IntegerField()
     Dependents = serializers.IntegerField()
