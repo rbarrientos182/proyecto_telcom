@@ -121,7 +121,7 @@ CORS_ALLOW_ALL_ORIGINS = True # Ajustar en producción
 # Internationalization
 # https://docs.djangoproject.com/en/6.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-mx'
+LANGUAGE_CODE = 'es-mx'
 
 TIME_ZONE = 'UTC'
 
