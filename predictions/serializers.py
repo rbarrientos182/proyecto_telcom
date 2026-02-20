@@ -1,0 +1,21 @@
+from rest_framework import serializers
+
+class ChurnInputSerializer(serializers.Serializer):
+    gender = serializers.IntegerField()
+    SeniorCitizen = serializers.IntegerField()
+    Partner = serializers.IntegerField()
+    Dependents = serializers.IntegerField()
+    Tenure = serializers.IntegerField()
+    PhoneService = serializers.IntegerField()
+    MultipleLines = serializers.IntegerField()
+    OnlineSecurity = serializers.IntegerField()
+    OnlineBackup = serializers.IntegerField()
+    DeviceProtection = serializers.IntegerField()
+    TechSupport = serializers.IntegerField()
+    StreamingTV = serializers.IntegerField()
+    StreamingMovies = serializers.IntegerField()
+    Contract = serializers.IntegerField()
+    PaperlessBilling = serializers.IntegerField()
+    PaymentMethod = serializers.IntegerField()
+    MonthlyCharges = serializers.FloatField()
+    TotalCharges = serializers.FloatField()
